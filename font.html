@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lưu File .txt</title>
+</head>
+<body>
+    <h1>Lưu File .txt</h1>
+    <form method="post" action="savefile.php">
+        <label for="filename">Tên file (.txt):</label>
+        <input type="text" id="filename" name="filename" required><br><br>
+        <label for="filecontent">Nội dung:</label><br>
+        <textarea id="filecontent" name="filecontent" rows="5" cols="40" required></textarea><br><br>
+        <input type="submit" value="Lưu file">
+    </form>
+</body>
+</html>
